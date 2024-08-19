@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/About.css">
+    <link rel="stylesheet" href="css/Services.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="https://kit.fontawesome.com/cf2a374c28.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/Images/Logo.png" class="logo" alt="logo">
+                <ul id="sidebar">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closebar()"></i>
+                </ul>
+
+                <i class="fa-solid fa-ellipsis" onclick="openbar()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Desinging</p>
+                <h1>Hi,I am <span>RAYYAN</span><br> Web Developer</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------ABOUT----------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">ABOUT ME</h1>
+                    <p>I am a BCA graduate with strong skills in programming, Web development.
+                        My hands-on project experience have sharpened my problem-solving abilities. I am
+                        eager to bring my knowledge and enthusiasm to a dynamic tech environment.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab ('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab ('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desinging Web Interfaces</li>
+                            <li><span>Front end</span><br>Desinging Web Interfaces</li>
+                            <li><span>Web Designer</span><br>Desinging Web Interfaces</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Not work yet</span><br>nothing to share</li>
+                            <li><span>Not work yet</span><br>nothing to share</li>
+                            <li><span>Not work yet</span><br>nothing to share</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>schooling</li>
+                            <li><span>2020</span><br>High school </li>
+                            <li><span>2021-2024</span><br>BCA DR.K.N MODI</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- --------SERVICES-------- -->
+    <div id="services"></div>
+    <div class="container">
+        <h1 class="subtitle"> My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <p>"Crafting visually appealing and functional websites tailored to your brand, ensuring seamless user
+                    experiences and effective communication of your message."</p>
+
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-layer-group"></i>
+                <h2>UI/Ux design</h2>
+                <p>Crafting intuitive user experiences through thoughtful interface design, optimizing usability, and
+                    enhancing user satisfaction across digital platforms.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-web-awesome"></i>
+                <h2>SEO</h2>
+                <p>Enhancing online visibility and driving organic traffic through strategic SEO practices, including
+                    keyword research, content optimization, and technical SEO audits, to achieve higher search engine
+                    rankings.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- -- ------------PORTFOLIO----------- -- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle ">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/Images/work-1.png" alt="work-1.png">
+                    <div class="layer">
+                        <h3><b>Student-Result-Management-System</b></h3>
+                        <p>This is a management realted system where student can easy ly check there data and teacher
+                            (admin) can upload student can easly apply to check there results on that web site result
+                            management system</p>
+                        <a href="#"><i class="fa-regular fa-file-lines"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="/Images/work-2.png" alt="work-2.png">
+                    <div class="layer">
+                        <h3>Amazon Clone</h3>
+                        <p>I developed an Amazon clone as a web development project using HTML and CSS. This project
+                            aimed to replicate the front-end layout and design of the Amazon e-commerce website,
+                            focusing on creating a visually appealing and responsive user interface.</p>
+                        <a href="#"><i class="fa-regular fa-file-lines"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="/Images/work-3.png" alt="work-3.png">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>I created a fully responsive personal portfolio website using HTML, CSS, and JavaScript to
+                            showcase my skills and projects. The website also features a custom contact form connected
+                            to an Excel sheet, allowing me to collect and manage visitor information directly through
+                            JavaScript.</p>
+                        <a href="#"><i class="fa-regular fa-file-lines"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="#" class="btn">See more</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ------------Contact----------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact me</h1>
+                    <p> <i class="fa-regular fa-paper-plane"></i>rayyansiddiqui512@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i>7665931215</p>
+                    <div class="socail-icons">
+                        <a href="https://www.instagram.com/rayyan_siddiqui_2.0/?utm_source=ig_web_button_share_sheet"
+                            target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/rayyan-ul-haque-9284a82a9/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100006195167094" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/rayyan_siddqiui" target="_blank"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="/CV/CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter your name" required>
+                        <input type="email" name="Email" placeholder="Enter your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-sharp fa-regular fa-copyright"></i>Copyright</p>
+        </div>
+    </div>
+
+    <script>
+        function opentab(tabName) {
+            var i, tabcontent, tablinks;
+
+            // hide all the tab-contents 
+            tabcontent = document.getElementsByClassName("tab-contents");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+                tabcontent[i].classList.remove("active-tab");
+            }
+
+            // remove tab-links from "active-link" class
+            tablinks = document.getElementsByClassName("tab-links");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+            }
+
+            //  show  Current tab ko show karo aur button ko "active-link" class do
+            document.getElementById(tabName).style.display = "block";
+            document.getElementById(tabName).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
+        }
+
+        // Initialize the default tab
+        document.getElementById("skills").style.display = "block";
+    </script>
+
+    <script>
+
+        var sidebar = document.getElementById("sidebar");
+
+        function openbar() {
+            sidebar.style.right = "0";
+        } function closebar() {
+            sidebar.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyPzodZXMaiecNlCk8CSWXPwJVGI0uYyoiPuqgHH0XV2109urAYljQri-LISy_H6Cv9RQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById("msg")
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message has been sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 4000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
