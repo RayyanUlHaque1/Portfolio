@@ -10,7 +10,8 @@
 }
 .about-col-1{
     flex-basis: 35%;
-    object-fit: cover;
+   background-size: cover;
+
 }
 .about-col-1 img{
     width: 100%;
