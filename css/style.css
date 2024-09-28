@@ -20,7 +20,7 @@ body{
     
 }
 .header-text p{
-    color: #cc1d1d;
+    color: #0b0229;
 }
 .container{
     padding: 10px 10%;
@@ -45,7 +45,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #cc1d1d;
+    color: #001834;
     font-size:15px;
     position: relative;
     font-weight: 600;
@@ -57,7 +57,7 @@ nav ul li a::after{
     position: absolute;
     left: 0;
     bottom: -6px;
-    background: rgb(212, 33, 33);
+    background:#0b0229;
     transition: 0.5s;
 }
 nav ul li a:hover::after{
@@ -66,7 +66,7 @@ nav ul li a:hover::after{
     font-size: 0.9rem;
 }
 nav ul li a:hover{
-    color:rgb(212, 33, 33);
+    color:#0b0229;
 transition: 0.5s;
 }
 .header-text{
@@ -74,12 +74,14 @@ transition: 0.5s;
     font-size: 30px;
 }
 .header-text h1{
-    color: rgb(228, 153, 54);
+   
+    color:#001834;
     font-size: 60px;
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: rgb(164, 22, 22);
+   
+    color: #0b0229;
 }
 nav .fa-solid{
     display: none;
@@ -102,7 +104,7 @@ nav .fa-solid{
     font-size: 30px;
 }
 nav ul{
-    background-color: rgb(203, 132, 40);
+    background-color:#efc1c1;
     position: fixed;
     top: 0;
     right: -200px;
