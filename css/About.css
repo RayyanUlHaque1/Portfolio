@@ -1,6 +1,6 @@
 #about {
     padding: 80px 0;
-    color:#fff;
+    color: #fff;
 }
 
 .row {
@@ -8,38 +8,60 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.about-col-1{
+
+.about-col-1 {
     flex-basis: 35%;
-   background-size: cover;
+    background-size: cover;
 
 }
-.about-col-1 img{
+
+.about-col-1 img {
     width: 100%;
     border-radius: 12px;
 }
-.about-col-2{
+
+.about-col-2 {
     flex-basis: 60%;
     color: rgb(255, 253, 251);
 }
-.subtitle{
-    color: rgb(60 112 112 / 90%);
+
+.subtitle {
+    color: #e9e4c7;
     font-size: 52px;
-    font-weight: 600;
-    font-family: 'poppins',sans-serif;
+    font-family: 'poppins', sans-serif;
 }
-.tab-titles{
+
+.subtitle {
+    width: 50%;
+    background: linear-gradient(to right, #481e14, #0c0c0c);
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #efe7d5;
+    box-shadow: 2px 2px 10px #EAD8B1, #3A6D8C;
+    border: none;
+    font-family: "Roboto Slab", serif;
+}
+
+.tab-titles {
     display: flex;
     margin: 20px 0 40px;
 
 }
-.tab-links{
+
+.tab-links {
     margin-right: 50px;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
 }
-.tab-links::after{
+
+.tab-links::after {
     content: '';
     width: 0;
     height: 3px;
@@ -49,41 +71,51 @@
     bottom: -8px;
     transition: 0.4s;
 }
-.tab-links.active-link::after{
+
+.tab-links.active-link::after {
     width: 55%;
 }
-.tab-contents ul li{
+
+.tab-contents ul li {
     list-style: none;
     margin: 10px 0;
 
 }
-.tab-contents ul li span{
-    color:aqua;
+
+.tab-contents ul li span {
+    color: #858e95;
 }
-.tab-contents{
+
+.tab-contents {
     display: none;
 }
-.tab-contents.active-tab{
+
+.tab-contents.active-tab {
     display: block;
 }
 
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:600px) {
 
-.subtitle{
-    font-size: 30px;
-}
-.about-col-1,.about-col-2{
-    flex-basis: 100%;
-}
-.about-col-1{
-    margin-bottom: 18px;
-}
-.about-col-2{
-    font-size: 14px;
-}
-.tab-links{
-    font-size: 16px;
-    margin-right: 20px;
-}
+    .subtitle {
+        font-size: 30px;
+    }
+
+    .about-col-1,
+    .about-col-2 {
+        flex-basis: 100%;
+    }
+
+    .about-col-1 {
+        margin-bottom: 18px;
+    }
+
+    .about-col-2 {
+        font-size: 14px;
+    }
+
+    .tab-links {
+        font-size: 16px;
+        margin-right: 20px;
+    }
 }
